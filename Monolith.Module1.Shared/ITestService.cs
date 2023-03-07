@@ -1,7 +1,6 @@
-namespace Monolith.Module1.Shared
+namespace Monolith.Module1.Shared;
+
+public interface ITestService
 {
-    public interface ITestService
-    {
-        string SayHello();
-    }
+    string SayHello();
 }

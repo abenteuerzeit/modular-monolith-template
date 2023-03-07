@@ -1,12 +1,11 @@
 using Monolith.Module1.Shared;
 
-namespace Monolith.Module1
+namespace Monolith.Module1;
+
+internal class TestService : ITestService
 {
-    internal class TestService : ITestService
+    public string SayHello()
     {
-        public string SayHello()
-        {
-            return "Hello world from Test Service (Module1)";
-        }
+        return "Hello world from Test Service (Module1)";
     }
 }
